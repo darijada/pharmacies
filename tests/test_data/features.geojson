@@ -1,0 +1,441 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2023-11-02T13:02:50Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/43310122",
+        "amenity": "pharmacy",
+        "building": "yes",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "opening_hours": "Mo-Fr 08:30-20:00",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              15.9342251,
+              45.7893606
+            ],
+            [
+              15.934325,
+              45.7893607
+            ],
+            [
+              15.934325,
+              45.7894274
+            ],
+            [
+              15.9342251,
+              45.7894273
+            ],
+            [
+              15.9342251,
+              45.7893606
+            ]
+          ]
+        ]
+      },
+      "id": "way/43310122"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/79503147",
+        "amenity": "bar",
+        "building": "yes",
+        "name": "Titla",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              16.0635961,
+              45.8318299
+            ],
+            [
+              16.0635793,
+              45.8317837
+            ],
+            [
+              16.0635695,
+              45.8317567
+            ],
+            [
+              16.0637072,
+              45.8317323
+            ],
+            [
+              16.0637338,
+              45.8318056
+            ],
+            [
+              16.0635961,
+              45.8318299
+            ]
+          ]
+        ]
+      },
+      "id": "way/79503147"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/82744833",
+        "amenity": "pharmacy",
+        "building": "yes",
+        "name": "Ljekarna",
+        "ref": "15"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              16.0055944,
+              45.8246205
+            ],
+            [
+              16.0055562,
+              45.8245289
+            ],
+            [
+              16.0055399,
+              45.8244896
+            ],
+            [
+              16.0061187,
+              45.8243724
+            ],
+            [
+              16.0061376,
+              45.8244178
+            ],
+            [
+              16.0062933,
+              45.8243862
+            ],
+            [
+              16.006329,
+              45.8244717
+            ],
+            [
+              16.0062204,
+              45.8244937
+            ],
+            [
+              16.0059655,
+              45.8245453
+            ],
+            [
+              16.0056465,
+              45.8246099
+            ],
+            [
+              16.0055944,
+              45.8246205
+            ]
+          ]
+        ]
+      },
+      "id": "way/82744833"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/196338131",
+        "amenity": "cafe",
+        "building": "yes",
+        "diet:vegetarian": "no",
+        "internet_access": "wlan",
+        "name": "Arka",
+        "opening_hours": "PH,Mo-Su 07:00-23:00",
+        "outdoor_seating": "yes",
+        "smoking": "isolated"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              15.9491931,
+              45.8529453
+            ],
+            [
+              15.9493163,
+              45.8529513
+            ],
+            [
+              15.9493097,
+              45.8530175
+            ],
+            [
+              15.9491864,
+              45.8530115
+            ],
+            [
+              15.9491931,
+              45.8529453
+            ]
+          ]
+        ]
+      },
+      "id": "way/196338131"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/200034533",
+        "amenity": "cafe",
+        "building": "retail",
+        "name": "bistro",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              15.9278677,
+              45.8420897
+            ],
+            [
+              15.9280813,
+              45.8421292
+            ],
+            [
+              15.9280648,
+              45.8421725
+            ],
+            [
+              15.9281496,
+              45.8421882
+            ],
+            [
+              15.9281196,
+              45.8422667
+            ],
+            [
+              15.9278213,
+              45.8422115
+            ],
+            [
+              15.9278677,
+              45.8420897
+            ]
+          ]
+        ]
+      },
+      "id": "way/200034533"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/368620776",
+        "amenity": "bar",
+        "building": "yes",
+        "name": "Faraon"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              15.9101972,
+              45.7249918
+            ],
+            [
+              15.9102285,
+              45.7250083
+            ],
+            [
+              15.9102583,
+              45.7249807
+            ],
+            [
+              15.9103994,
+              45.7250551
+            ],
+            [
+              15.9103732,
+              45.7250793
+            ],
+            [
+              15.9105904,
+              45.7251938
+            ],
+            [
+              15.910424,
+              45.7253477
+            ],
+            [
+              15.9104432,
+              45.7253578
+            ],
+            [
+              15.9103894,
+              45.7254077
+            ],
+            [
+              15.9102718,
+              45.7253457
+            ],
+            [
+              15.9103223,
+              45.725299
+            ],
+            [
+              15.9102724,
+              45.7252726
+            ],
+            [
+              15.9102566,
+              45.7252872
+            ],
+            [
+              15.9101257,
+              45.7252182
+            ],
+            [
+              15.9101827,
+              45.7251655
+            ],
+            [
+              15.9100723,
+              45.7251073
+            ],
+            [
+              15.9101972,
+              45.7249918
+            ]
+          ]
+        ]
+      },
+      "id": "way/368620776"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/324581955",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.9971302,
+          45.7790464
+        ]
+      },
+      "id": "node/324581955"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/324590949",
+        "addr:housenumber": "20",
+        "addr:street": "Ulica Brune Bušića",
+        "amenity": "pharmacy",
+        "check_date": "2022-11-14",
+        "email": "sredisce@primapharme.hr",
+        "healthcare": "pharmacy",
+        "name": "PrimaPharme",
+        "opening_hours": "Mo-Fr 07:00-20:00; Sa 08:00-13:00",
+        "phone": "+385 1 6608 360",
+        "website": "https://primapharme.hr/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.9869314,
+          45.7804652
+        ]
+      },
+      "id": "node/324590949"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/326246349",
+        "amenity": "cafe",
+        "name": "Caffe Janko"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.9861411,
+          45.7795865
+        ]
+      },
+      "id": "node/326246349"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/326280374",
+        "amenity": "cafe",
+        "name": "Song",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.9673978,
+          45.7776205
+        ]
+      },
+      "id": "node/326280374"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/457932789",
+        "addr:housenumber": "5",
+        "addr:street": "Jarunska ulica",
+        "amenity": "bar",
+        "contact:facebook": "https://www.facebook.com/club.roko1/",
+        "contact:instagram": "https://www.instagram.com/club_roko",
+        "email": "rokoakademija@gmail.com",
+        "name": "Roko",
+        "phone": "+385 97 659 2000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.9479777,
+          45.7836568
+        ]
+      },
+      "id": "node/457932789"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/469344379",
+        "amenity": "bar",
+        "name": "Aruba",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.9365627,
+          45.7806573
+        ]
+      },
+      "id": "node/469344379"
+    }
+  ]
+}
