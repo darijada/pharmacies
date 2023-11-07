@@ -58,7 +58,8 @@ def find_pharmacy_with_most_coffee_bars(
         buffered_pharmacy = pharmacy_geom.buffer(SEARCH_RADIUS)
 
         coffee_bars_in_radius = coffee_bars_gdf[
-            coffee_bars_gdf.intersects(buffered_pharmacy)
+            coffee_bars_gdf.geometry.intersects(buffered_pharmacy)
+            | coffee_bars_gdf.geometry.within(buffered_pharmacy)
         ]
         coffee_bars_count = len(coffee_bars_in_radius)
 
@@ -70,3 +71,54 @@ def find_pharmacy_with_most_coffee_bars(
             pharmacy_with_most_coffee_bars.append(pharmacy_row)
 
     return pharmacy_with_most_coffee_bars, max_coffee_bars_no
+
+
+def remove_duplicates(features_gdf):
+    """
+    Remove duplicate features from a GeoDataFrame.
+    This function removes duplicate features by:
+    - removing identical geometries and keeping the first occurrence.
+    - removing Points that are inside/on Polygons.
+    - removing Polygons that are fully contained within other Polygons.
+
+    :param features_gdf: A GeoDataFrame containing geospatial features.
+    :return: A modified GeoDataFrame without duplicates.
+    """
+    # remove identical geometries and keep first
+    features_gdf = features_gdf[
+        ~features_gdf.duplicated(subset="geometry", keep="first")
+    ]
+
+    # find and remove Points inside/on Polygons
+    to_remove = []
+    for idx, feature in features_gdf.iterrows():
+        if idx not in to_remove and feature["geometry"].geom_type == "Point":
+            point_feature = feature["geometry"]
+            for idx_poly, polygon_feature in features_gdf[
+                features_gdf["geometry"].geom_type == "Polygon"
+            ].iterrows():
+                if point_feature.within(
+                    polygon_feature["geometry"]
+                ) or point_feature.touches(polygon_feature["geometry"]):
+                    to_remove.append(idx)
+                    break
+    features_gdf = features_gdf.drop(to_remove)
+
+    # find and remove Polygons inside Polygons
+    to_remove = []
+    for idx, feature in features_gdf[
+        features_gdf["geometry"].geom_type == "Polygon"
+    ].iterrows():
+        if idx not in to_remove:
+            polygon_feature_1 = feature["geometry"]
+            for idx_poly, polygon_feature_2 in features_gdf[
+                features_gdf["geometry"].geom_type == "Polygon"
+            ].iterrows():
+                if idx != idx_poly and polygon_feature_1.within(
+                    polygon_feature_2["geometry"]
+                ):
+                    to_remove.append(idx)
+                    break
+    features_gdf = features_gdf.drop(to_remove)
+
+    return features_gdf

@@ -1,0 +1,149 @@
+{
+    "type": "FeatureCollection",
+    "generator": "overpass-turbo",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+    "timestamp": "2023-11-02T13:02:50Z",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/43310122",
+                "amenity": "pharmacy",
+                "building": "yes",
+                "dispensing": "yes",
+                "healthcare": "pharmacy",
+                "opening_hours": "Mo-Fr 08:30-20:00",
+                "roof:material": "roof_tiles",
+                "roof:shape": "gabled",
+                "wheelchair": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "id": "way/43310122"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/43310123",
+                "amenity": "pharmacy",
+                "building": "yes",
+                "dispensing": "yes",
+                "healthcare": "pharmacy",
+                "opening_hours": "Mo-Fr 08:30-20:00",
+                "roof:material": "roof_tiles",
+                "roof:shape": "gabled",
+                "wheelchair": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "id": "way/43310123"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/79503147",
+                "amenity": "pharmacy",
+                "building": "yes",
+                "roof:material": "roof_tiles",
+                "roof:shape": "gabled"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [1, 1]
+            },
+            "id": "way/79503147"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/82744833",
+                "amenity": "pharmacy",
+                "building": "yes",
+                "ref": "15"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [[[0, 0], [2, 0], [2, 2], [0, 2], [0, 0]]]
+            },
+            "id": "way/82744833"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/82744834",
+                "amenity": "pharmacy",
+                "building": "yes",
+                "ref": "15"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [[[0, 0], [2, 0], [2, 2], [0, 2], [0, 0]]]
+            },
+            "id": "way/82744834"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/12346",
+                "ref": "42"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [[[0.5, 0.5], [1.5, 0.5], [1.5, 1.5], [0.5, 1.5], [0.5, 0.5]]]
+            },
+            "id": "way/12346"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/67890",
+                "ref": "99"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [3, 3]
+            },
+            "id": "way/67890"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/54329",
+                "ref": "13"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [[[4, 4], [5, 4], [5, 5], [4, 5], [4, 4]]]
+            },
+            "id": "way/54329"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/99999",
+                "ref": "77"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [[[1, 1], [1, 2], [2, 2], [2, 1], [1, 1]]]
+            },
+            "id": "way/99999"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/88888",
+                "ref": "88"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [[[2, 1], [2, 2], [3, 2], [3, 1], [2, 1]]]
+            },
+            "id": "way/88888"
+        }
+    ]
+}
